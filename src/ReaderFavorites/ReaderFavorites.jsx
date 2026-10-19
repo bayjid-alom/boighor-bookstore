@@ -43,7 +43,7 @@ const ReaderFavorites = () => {
                     <div className="group flex flex-col overflow-hidden rounded-2xl border border-[#E3D6C4] bg-white transition-colors hover:border-amber-800/30">
                         <div className="relative flex h-64 items-center justify-center overflow-hidden bg-[#E9DDC9] p-5">
                             <img
-                                src="https://placehold.co/400x550/e5d4b5/543820?text=Nondito+Noroke"
+                                src="https://rokbucket.rokomari.io/ProductNew20190903/260X372/53db8fb15_1162.jpg"
                                 alt="নন্দিত নরকে"
                                 className="h-full w-auto max-w-[65%] object-cover shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
                             />
@@ -72,9 +72,9 @@ const ReaderFavorites = () => {
                     <div className="group flex flex-col overflow-hidden rounded-2xl border border-[#E3D6C4] bg-white transition-colors hover:border-amber-800/30">
                         <div className="relative flex h-64 items-center justify-center overflow-hidden bg-[#E9DDC9] p-5">
                             <img
-                                src="https://placehold.co/400x550/d7d8bc/34442c?text=Jochona+O+Jononir+Golpo"
+                                src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1429515855i/2580306.jpg"
                                 alt="জোছনা ও জননীর গল্প"
-                                className="h-full w-auto max-w-[65%] object-cover shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
+                                className="h-full  w-auto max-w-[65%] object-cover shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
                             />
                             <span className="absolute top-4 left-4 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-[#79512D]">
                                 বিশেষ নির্বাচন
@@ -101,7 +101,7 @@ const ReaderFavorites = () => {
                     <div className="group flex flex-col overflow-hidden rounded-2xl border border-[#E3D6C4] bg-white transition-colors hover:border-amber-800/30">
                         <div className="relative flex h-64 items-center justify-center overflow-hidden bg-[#E9DDC9] p-5">
                             <img
-                                src="https://placehold.co/400x550/c9d3c2/304b37?text=Bonolota+Sen"
+                                src="https://harekrokom.com/assets/images/products/1765625687.webp"
                                 alt="বনলতা সেন"
                                 className="h-full w-auto max-w-[65%] object-cover shadow-xl transition-transform duration-300 group-hover:-translate-y-1"
                             />
