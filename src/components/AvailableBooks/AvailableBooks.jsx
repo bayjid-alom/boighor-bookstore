@@ -1,7 +1,13 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const AvailableBooks = ({ books }) => {
+const AvailableBooks = ({ books, carts, setCarts }) => {
     // console.log(books);  // [{..} {...}]
+
+    const handleAddToCart = (book) => {
+        toast.success(`${book.bookName} বইটি কার্টে যোগ হয়েছে।`)
+        setCarts([...carts, book])
+    }
 
     return (
         <div className="books-container grid w-full grid-cols-1 gap-6 py-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -12,7 +18,8 @@ const AvailableBooks = ({ books }) => {
                     <div className="relative flex h-52 items-center justify-center overflow-hidden bg-[#F5EFE5] p-3 sm:h-56">
 
                         <img
-                            src="https://images.stockcake.com/public/f/5/1/f517e2de-d47e-45fb-9d16-66a4088a94fc_large/morning-reading-time-stockcake.jpg"
+                            // src="https://images.stockcake.com/public/f/5/1/f517e2de-d47e-45fb-9d16-66a4088a94fc_large/morning-reading-time-stockcake.jpg"
+                            src={book.bookImg}
                             alt="নন্দিত নরকে"
                             className="h-full max-w-[70%]  rounded-xl object-cover shadow-lg transition-transform duration-300 group-hover:-translate-y-1"
                         />
@@ -56,7 +63,9 @@ const AvailableBooks = ({ books }) => {
                                 </p>
                             </div>
 
-                            <button className="rounded-xl bg-[#49301F] px-3 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#68452C] sm:text-sm">
+                            <button
+                                onClick={() => handleAddToCart(book)}
+                                className="rounded-xl bg-[#49301F] px-3 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#68452C] sm:text-sm">
                                 + কার্টে যোগ করুন
                             </button>
                         </div>

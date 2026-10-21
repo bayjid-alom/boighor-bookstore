@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import FeaturedAuthors from './FeaturedAuthors/FeaturedAuthors'
 import ReaderFavorites from './ReaderFavorites/ReaderFavorites'
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
+import { ToastContainer } from 'react-toastify'
 
 
 const fetchBooks = async () => {
@@ -38,6 +39,8 @@ function App() {
       <FeaturedAuthors></FeaturedAuthors>
       <WhyChooseUs></WhyChooseUs>
       <Footer></Footer>
+
+      <ToastContainer></ToastContainer>
     </>
   )
 }
