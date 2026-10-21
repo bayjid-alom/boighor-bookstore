@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Books from './Books/Books'
 import Banner from './components/Banner/Banner'
@@ -18,12 +18,13 @@ const fetchBooks = async () => {
 function App() {
 
   const booksPromise = fetchBooks()
+  const [balance, setBalance] = useState(1500)
 
 
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar balance={balance}></Navbar>
       <Banner></Banner>
 
 
@@ -31,7 +32,10 @@ function App() {
         <span className="loading loading-dots loading-xl"></span>
       </div>
       }>
-        <Books booksPromise={booksPromise}></Books>
+        <Books booksPromise={booksPromise}
+        balance={balance}
+        setBalance={setBalance}
+        ></Books>
       </Suspense>
 
 

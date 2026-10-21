@@ -3,7 +3,7 @@ import { BookOpen, ShoppingCart } from 'lucide-react';
 import AvailableBooks from '../components/AvailableBooks/AvailableBooks';
 import SelectedBooks from '../components/SelectedBooks/SelectedBooks';
 
-const Books = ({ booksPromise }) => {
+const Books = ({ booksPromise, balance, setBalance }) => {
     const books = use(booksPromise)
     // console.log(books);  // [{..} {...}]
     const [activeTabs, setActiveTabs] = useState("all-books")
@@ -42,12 +42,10 @@ const Books = ({ booksPromise }) => {
                             : "text-[#49301F] hover:bg-[#FBF8F1]"
                             }`}
                     >
-                        নির্বাচিত বইগুলো
+                        নির্বাচিত বই ({carts.length.toLocaleString('bn-BD')})
                     </button>
                 </div>
             </div>
-
-
 
 
 
@@ -58,15 +56,18 @@ const Books = ({ booksPromise }) => {
             {
                 activeTabs === "all-books" ?
                     <AvailableBooks
+                        balance={balance}
+                        setBalance={setBalance}
                         books={books}
                         carts={carts}
-                        setCarts={setCarts}></AvailableBooks>
+                        setCarts={setCarts}
+                    ></AvailableBooks>
                     :
                     <SelectedBooks carts={carts}
-                        setCarts={setCarts}></SelectedBooks>
+                        setCarts={setCarts}
+                        balance={balance}
+                        setBalance={setBalance}></SelectedBooks>
             }
-
-
 
 
 

@@ -33,7 +33,7 @@
         "publisher": "বিশ্বসাহিত্য কেন্দ্র",
         "price": 280,
         "description": "গ্রামীণ সমাজ, ধর্মীয় প্রভাব ও মানুষের বিশ্বাসকে ঘিরে লেখা উপন্যাস।",
-        "bookImg": "https://placehold.co/400x500?text=Lalsalu"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJH0J8hE1Z0lE2b9Iwm2JNc6fHV0DmNT6m9eAJH55_csg-Cx1TxFIFz1f&s=10"
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@
         "publisher": "বাংলা একাডেমি",
         "price": 350,
         "description": "কারবালার ঐতিহাসিক ঘটনাকে কেন্দ্র করে রচিত বাংলা সাহিত্যের কালজয়ী গ্রন্থ।",
-        "bookImg": "https://placehold.co/400x500?text=Bishad+Sindhu"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyaz0Sgcobo0MkZ856qqlwNPryc6oHaW-tby0wgvG-q2ZsFnaal3l3-K-V&s=10"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@
         "publisher": "বাংলা একাডেমি",
         "price": 300,
         "description": "বিদ্রোহ, প্রেম ও মানবতার চেতনায় সমৃদ্ধ কবিতার সংকলন।",
-        "bookImg": "https://placehold.co/400x500?text=Sanchita"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHK4UrNr7u6r1Cb3FxUTg_i7Sxtq7_BmMJzYUKzUbg7eEi2JxPdeh5cH4&s=10"
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@
         "publisher": "প্রচলিত বিভিন্ন সংস্করণ",
         "price": 180,
         "description": "প্রকৃতি, নিঃসঙ্গতা ও সৌন্দর্যের অনন্য কাব্যিক প্রকাশ।",
-        "bookImg": "https://placehold.co/400x500?text=Bonolota+Sen"
+        "bookImg": "https://pbs.com.bd/_next/image?url=https%3A%2F%2Ffs.pbs.com.bd%2FDIR%2FCom%2FPBS%2FProduct%2FImageDetails%2F2502305.jpg&w=640&q=75"
     },
     {
         "id": 7,
@@ -81,7 +81,7 @@
         "publisher": "প্রচলিত বিভিন্ন সংস্করণ",
         "price": 320,
         "description": "গ্রামীণ বাংলার জীবন ও অপু-দুর্গার শৈশবের হৃদয়স্পর্শী কাহিনি।",
-        "bookImg": "https://placehold.co/400x500?text=Pother+Pachali"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZF57hZ-UAaz868wrPByF4cga_KvEpLF4cnRpoO2b2IpOgRCNWf6osjFo&s=10"
     },
     {
         "id": 8,
@@ -93,7 +93,7 @@
         "publisher": "সন্ধানী প্রকাশনী",
         "price": 350,
         "description": "মুক্তিযুদ্ধের দিনগুলোর ব্যক্তিগত অভিজ্ঞতা ও আত্মত্যাগের স্মৃতিকথা।",
-        "bookImg": "https://placehold.co/400x500?text=Ekattorer+Dinguli"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO2BLe8_VSO71b9RfioRNvDI9Zp12Py5CffxX5T6rkNC_gavrpS6ZwscWJ&s=10"
     },
     {
         "id": 9,
@@ -105,7 +105,7 @@
         "publisher": "প্রচলিত বিভিন্ন সংস্করণ",
         "price": 220,
         "description": "ভাষা আন্দোলনের চেতনা ও তরুণদের প্রতিবাদকে কেন্দ্র করে রচিত উপন্যাস।",
-        "bookImg": "https://placehold.co/400x500?text=Arek+Falgun"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTaI2K7bOi7yeMkvgzwWfKSu-1KF2viQJw0Nu8ziJJru5GWkXtoWoFa78&s=10"
     },
     {
         "id": 10,
@@ -117,6 +117,6 @@
         "publisher": "প্রচলিত বিভিন্ন সংস্করণ",
         "price": 280,
         "description": "গ্রামীণ বাংলার জীবন, সামাজিক রীতিনীতি ও মানুষের সম্পর্কের কাহিনি।",
-        "bookImg": "https://placehold.co/400x500?text=Hajar+Bochor+Dhore"
+        "bookImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKKr5IdjHWl1hDG2NhZarTQimGtrhWCBr8OpEKq2LzUgrFjgXtrzckepI4&s=10"
     }
 ]

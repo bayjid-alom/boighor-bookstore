@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from './Link';
+import { BookOpen } from 'lucide-react';
 
 
 const navLinks = [
@@ -10,7 +11,7 @@ const navLinks = [
     { id: 5, name: 'আমার সংগ্রহ', path: '/collection' },
 ];
 
-const Navbar = () => {
+const Navbar = ({ balance }) => {
     const links = navLinks.map(route => (
         <Link key={route.id} route={route} />
     ));
@@ -22,8 +23,9 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <div className="flex flex-1 items-center gap-2">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-100 text-amber-800">
-                        <span className="text-2xl">📚</span>
+                    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-100">
+                        {/* <span className="text-2xl">📚</span> */}
+                        <span className="text-2xl"><BookOpen></BookOpen></span>
                     </div>
 
                     <div>
@@ -47,7 +49,7 @@ const Navbar = () => {
                         type="button"
                         className="btn rounded-full border-amber-200 bg-amber-50 px-3 text-amber-900 hover:bg-amber-100 sm:px-4"
                     >
-                        <span className="font-bold">৳ 0</span>
+                        <span className="font-bold">৳ {balance.toLocaleString('bn-BD')}</span>
                         <span className="hidden sm:inline">ব্যালেন্স</span>
                     </button>
                 </div>
